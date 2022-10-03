@@ -4,16 +4,9 @@
 // i moduli posso essere Common module come questo 
 // con module.exports possiamo esportare la funzione nel file 
 // script.js =>
-function txtMessage(message){
-    console.log(`the message is ${message}`)
-}
-export default txtMessage
 
 
-
-
-
-    // function txtMessage(message){
-    //     console.log(`the message is ${message}`)
-    // }
-    // module.exports = txtMessage
+    function txtMessage(message){
+        console.log(`the message is ${message}`)
+    }
+    module.exports = txtMessage
