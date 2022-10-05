@@ -15,7 +15,7 @@ function createApp(){
         response.statusCode=200;
         response.setHeader("Content-Type","applicatio/json");
 
-        const jsonResponseBody = (JSON.stringify({location:"Mars"}))
+        const jsonResponseBody = (JSON.stringify({location:"Terra"}))
 
         response.end(jsonResponseBody)
     })

@@ -11,5 +11,12 @@ const request = supertest(app);
 //dentro test dobbiamo mettere il metodo get che mi restituira una async function
 test("GET /", async ()=>{
     const response = await request.get("/")
-    .expect(200);
+    .expect(200)
+    //possiamo anche decidere di avere come risposta una header come quella
+    //della app 
+    .expect("Content-Type","applicatio/json")
+    //andiamo a controllare il response del body 
+    //nella constate response abbiamo un ritorno di funzione che avra un oggetto 
+    //quindi response.body e lo vorremo uguale quindi toEqual()
+    // .expect(response.body).toEqual({location: "Terra"})
 }) 
