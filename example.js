@@ -1,15 +1,15 @@
-//in questa lezione vedremo come inizializare un progetto in git hub mai lo abbimao gia fatto
-//secondo step scaricheremo il git ignore da github con curl 
-//andiamo nel terminale mettiamo $ curl https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore -o .gitignore
-//ora vediamo se la configurazione sia corretta
-//digitiamo nel terminale git config global --user.name
-//avremo come risultato il nostro user => elio 
-//con git config --global user.email
-//avremo come risultato => castels@hotmail.it
-// molto importante per creare un pckagejson con tutto quello che ci serve 
-//lanciamo il comdando npm init --yes
-//andiamo nel nostro nuovo packagejson e aggiungiamo la scringa engines e diciamo 
-//che lavoreremo solo con node version superiori a 16 
-// controllare cio lanciamo nel terminale node -v => v16.15.0 risultato 
-// cosi abbiamo inizializzato il nostro progetto 
+//in questa lezione vedremo come runnare i nostri script nel package json 
+//nel pchage json avremo nella sezione script test e una string 
+//se facciamo npm run 
+// $ npm run
+// Lifecycle scripts included in lezioni-node@1.0.0:
+//   test
+//     echo "Error: no test specified" && exit 1
+//in questa sezione script possiamo anche aggiungere 
+//la dichiarazione e la frase che vogliamo quando runniamo un test 
+//tipo posso aggiungere la sezione task e mettere la frase che voglio 
+//infatti se eseguo npm run task
+// $ npm run task
 
+// > lezioni-node@1.0.0 task
+// > Doing a task ....
