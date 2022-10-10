@@ -3,6 +3,7 @@
 // dove non avremo nessun ritorno con jest
 //e adesso siamo pronti anche a gestire i nostri test sul  server
 module.exports = {
+    preset: "ts-jest",
     testEnviroment: "node",
     verbose: true,
 };
