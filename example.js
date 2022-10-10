@@ -1,5 +1,7 @@
-//in questa lezione vedere come utilizzare editorconfig
-//prima cosa andiamo ad installare l'estenzione editorconfig in Vs
-//dopo andiamo col mause nella aerea di lavoro e col testo destro  creaimo un
-// file editor config
-//creaimo anche un file prettier -> con questo comando echo {}> .prettierrc.json
+//in questa lezione vedremo come installare typescript per react
+// come prima cosa ninstalliamo il pacchetto typescrit
+// poi quello type@node
+//ora dobbiamo creare una configurazione per il tyscript comlipatore andiamo acreare un typeconfig => con un npm npm install --save-dev @tsconfig/node16
+//outDir sara la nostra cartella in cui salveremo
+//la successiva sono i file che vogliamo includere
+//l ultima i file che vogliamo escludere
