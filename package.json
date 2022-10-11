@@ -48,6 +48,7 @@
         "memoizee": "^0.4.15",
         "ms": "^2.1.2",
         "next-tick": "^1.1.0",
+        "nodemon": "^2.0.20",
         "on-exit-leak-free": "^2.1.0",
         "pino": "^8.6.1",
         "pino-abstract-transport": "^1.0.0",
