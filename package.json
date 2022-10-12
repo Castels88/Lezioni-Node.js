@@ -86,7 +86,8 @@
     },
     "scripts": {
         "format": "prettier --write .",
-        "test": "jest"
+        "test": "jest",
+        "build":"tsc"
     },
     "engines": {
         "node": ">=16"
