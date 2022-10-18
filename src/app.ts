@@ -7,7 +7,9 @@ const app = express();
 app.get("/planets", (request, response) => {
     const planets = [
         {name: "Mercury"},
-        {name: "Venus"}
+        {name: "Venus"},
+        {name: "Jupiter"}
+
     ]
 
     console.log({planets})
@@ -17,6 +19,4 @@ app.get("/planets", (request, response) => {
     response.json(planets);
 });
 export default app
-//andiamo ad utilizzare uno di questi metodi nella nostra app come prima cosa avviamo la app
-//ogni volta che avvieremo il $ curl localhost:3005/planets -v nel nostro terminale verrano direttamente inseriti i risultati dei console
 
